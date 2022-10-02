@@ -1,5 +1,5 @@
 date=`date +"%H.%M"`
-name="Ex-Base"
+name="Ex-App"
 
 target="$HOME/Téléchargements/Copies/CP-$name-$date"
 
