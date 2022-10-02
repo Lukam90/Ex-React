@@ -1,6 +1,6 @@
 import "../styles/ShoppingList.css"
 
-import { plantList } from "../data/plantList.js"
+import { plantList } from "../data/plantList"
 
 import PlantItem from "./PlantItem"
 
@@ -10,7 +10,7 @@ function ShoppingList() {
     )
 
     return (
-        <div>
+        <div className="lmj-shopping-list">
             <ul>
                 {categories.map(category => (
                     <li key={category}>{category}</li>

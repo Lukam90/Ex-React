@@ -8,9 +8,9 @@ npx create-react-app la-maison-jungle
 
 npm start
 
+## Resize Images (Ubuntu)
 
-
-
+mogrify -resize 250x250 *.png
 
 
 

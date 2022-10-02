@@ -1,16 +1,8 @@
-import logo from "../assets/logo.png"
-
 import "../styles/Banner.css"
 
-function Banner() {
-    const title = "La maison jungle"
-
+function Banner({ children }) {
     return (
-        <div className="lmj-banner">
-            <img src={logo} alt={title} className="lmj-logo" />
-
-            <h1 className="lmj-title">{title}</h1>
-        </div>
+        <div className="lmj-banner">{children}</div>
     )
 }
 

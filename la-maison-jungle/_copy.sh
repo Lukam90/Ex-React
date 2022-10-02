@@ -1,8 +1,10 @@
 date=`date +"%H.%M"`
 name="DE"
 
-target="~/Téléchargements/Copies/CP-$name-$date"
+target="$HOME/Téléchargements/Copies/CP-$name-$date"
 
-cp -r . $target
+mkdir -p $target
+
+cp -r src $target
 
 echo "Copie de $name - $date"
