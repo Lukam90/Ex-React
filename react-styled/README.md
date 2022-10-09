@@ -11,3 +11,5 @@ npm start
 ## NPM
 
 npm i styled-components
+
+npm i react-icons
