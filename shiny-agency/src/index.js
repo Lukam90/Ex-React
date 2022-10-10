@@ -11,6 +11,10 @@ import Survey from './pages/Survey'
 import Freelances from './pages/Freelances'
 import NotFound from './pages/NotFound'
 
+import Footer from './components/Footer'
+
+import { ThemeProvider } from './utils/context'
+
 const GlobalStyle = createGlobalStyle`
     div {
         font-family: 'Trebuchet MS', Helvetica, sans-serif;
@@ -21,16 +25,20 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 	<React.StrictMode>
 		<Router>
-			<GlobalStyle />
+			<ThemeProvider>
+				<GlobalStyle />
 
-			<Header />
+				<Header />
 
-			<Routes>
-				<Route exact path="/" element={<Home />} />
-				<Route path="/survey/:questionNumber" element={<Survey />} />
-				<Route exact path="/freelances" element={<Freelances />} />
-				<Route element={<NotFound />} />
-			</Routes>
+				<Routes>
+					<Route exact path="/" element={<Home />} />
+					<Route path="/survey/:questionNumber" element={<Survey />} />
+					<Route exact path="/freelances" element={<Freelances />} />
+					<Route element={<NotFound />} />
+				</Routes>
+
+				<Footer />
+			</ThemeProvider>
 		</Router>
 	</React.StrictMode>
 );
