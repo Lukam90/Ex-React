@@ -14,6 +14,8 @@ npx create-react-app frontend --template redux
 
 npm i -D nodemon
 
+npm i -D concurrently
+
 npm i express dotenv mongoose colors
 
 npm i express-async-handler
