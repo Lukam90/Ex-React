@@ -6,6 +6,7 @@ target="$HOME/Téléchargements/Copies/CP-$name-$date"
 mkdir -p $target
 
 cp -r backend $target
+cp -r frontend/src $target
 
 cp *.* $target
 
