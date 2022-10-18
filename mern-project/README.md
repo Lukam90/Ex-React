@@ -4,7 +4,13 @@
 
 npm init
 
+## Create (Front)
+
+npx create-react-app frontend --template redux
+
 ## NPM
+
+### NPM > Back
 
 npm i -D nodemon
 
@@ -15,6 +21,12 @@ npm i express-async-handler
 npm i bcryptjs
 
 npm i jsonwebtoken
+
+### NPM > Front
+
+npm i react-router-dom
+
+npm i react-icons
 
 ## Serve
 
