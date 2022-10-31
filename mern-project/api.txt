@@ -1,7 +1,0 @@
-GET http://127.0.0.1:5000/api/goals/ []
-
-POST http://127.0.0.1:5000/api/goals/ []
-
-Body > x-www-form-urlencoded
-
-"text" : "My new goal"
