@@ -1,19 +1,27 @@
 import React from "react"
 
-import Navbar from "../components/Navbar"
+import { Link } from "gatsby"
+
+import Layout from "../components/Layout"
+
+import * as styles from "../styles/home.module.css"
 
 export default function Home() {
 	return (
-		<section>
-			<Navbar />
+		<Layout>
+			<section className={styles.header}>
+				<div>
+					<h2>Design</h2>
 
-			<div>
-				<h2>Design</h2>
+					<h3>Develop & Deploy</h3>
 
-				<h3>Develop & Deploy</h3>
+					<p>UX design & web developer</p>
 
-				<p>UX design & web developer</p>
-			</div>
-		</section>
+					<Link to="/projects" className={styles.btn}>My Portfolio Projects</Link>
+				</div>
+
+				<img src="/banner.png" alt="site banner" style={{ maxWidth: '100%' }} />
+			</section>
+		</Layout>
 	)
 }
