@@ -5,6 +5,11 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+	/* Your site config here */
+	plugins: [],
+	siteMetadata: {
+		title: "Web Warrior",
+		description: "Web dev portfolio",
+		copyright: "This website is copyright 2021 - Web Warrior"
+	}
 }

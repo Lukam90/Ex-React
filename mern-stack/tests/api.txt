@@ -1,0 +1,7 @@
+POST localhost:4000/api/workouts
+
+{
+    "title" : "Situps",
+    "load" : 0,
+    "reps" : 50
+}
