@@ -16,6 +16,10 @@ npm i dotenv
 
 npm i mongoose
 
+### Frontend
+
+npx create-react-app frontend
+
 ## Serve
 
 nodemon server.js
