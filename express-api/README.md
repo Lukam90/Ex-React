@@ -12,6 +12,8 @@ npm i express
 
 npm i dotenv
 
+npm i mongoose
+
 ## Start
 
 nodemon server.js
