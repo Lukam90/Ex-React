@@ -1,0 +1,9 @@
+POST localhost:4000/api/workouts
+
+Body > raw > JSON
+
+{
+    "title" : "Situps",
+    "load" : 0,
+    "reps": 50
+}
