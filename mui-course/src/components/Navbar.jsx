@@ -1,5 +1,7 @@
+import { Box, Container, Stack } from "@mui/material";
+
 export default function Navbar () {
     return (
-        <div>Feed</div>
+        <Box bgcolor="skyblue" flex={1}></Box>
     );
 }

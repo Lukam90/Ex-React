@@ -1,5 +1,7 @@
+import { Box, Container, Stack } from "@mui/material";
+
 export default function Feed () {
     return (
-        <div>Feed</div>
+        <Box bgcolor="lightcoral" flex={2} p={2}>Feed</Box>
     );
 }
