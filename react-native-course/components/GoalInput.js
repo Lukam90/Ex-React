@@ -1,4 +1,4 @@
-import { useState } from 'react';i
+import { useState } from 'react';
 
 import { Button, StyleSheet, TextInput, View } from 'react-native';
 
